@@ -1,3 +1,5 @@
+![](https://nabyte.com/imgs/093a4853c1b19fea3374e8c923a670f6c0575593UntitledS.png)
+
 ## Non Shitty Teams
 
 Non Shitty Teams or (NST) is a CefSharp Chromium application 
