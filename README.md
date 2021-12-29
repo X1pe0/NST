@@ -1,0 +1,2 @@
+# NST
+Non Shitty Teams
