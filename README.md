@@ -7,6 +7,13 @@ The app itself has no telemetry phoning home to Microsoft’s servers
 and uses a lightweight library with minimal RAM usage. This application 
 comes with a WTFPL license which can be seen below.
 
+## The Deets and Info's
+NST by default saves Team’s attachments within the users documents folder. This will be changed within the near future to allow some style of customization. All cache and CefSharp content is saved within the users AppData folder within the directory NS_T for debugging. 
+
+##### FYI's
+###### Ensure you have .NET Framework 4.8 to run. 
+
+
 
 ### Main Menu
 ![](https://nabyte.com/imgs/8ac7a446c6ababa34ba813b2f6fed5f9b17a566f1.png)
