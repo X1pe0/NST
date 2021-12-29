@@ -8,8 +8,11 @@ and uses a lightweight library with minimal RAM usage. This application
 comes with a WTFPL license which can be seen below.
 
 
+### Main Menu
+![](https://nabyte.com/imgs/8ac7a446c6ababa34ba813b2f6fed5f9b17a566f1.png)
 
-
+### System Tray Options
+![](https://nabyte.com/imgs/50bbb20ce0ea0415b75fa42051678cf867b455572.png)
 
 
 
