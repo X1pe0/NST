@@ -9,6 +9,10 @@ The app itself has no telemetry phoning home to Microsoft’s servers
 and uses a lightweight library with minimal RAM usage. This application 
 comes with a WTFPL license which can be seen below.
 
+## What’s the Point?
+Microsoft Team’s on its own is rather bulky, both in size and resources without an official (in my opinion) reasoning and or point. With NST, the total size of the application is less then 50MB (excluding cache generated) with minimal RAM resources. Another reasoning behind the creation of this app was multiple CVE’s and exploitation avenues and or routes were possible up to including RCE methods within Microsoft Teams. There was and or is no possible way to script an update for Microsoft Teams other then running a self-update via the hamburger menu and or re-installation via an RMM toolset. Yes, I agree the name itself isn’t professional, but this isn’t the point of NST. A true well established web application such as Microsoft Teams fails to meet basic standards regarding security and simplicity when dealing with millions of users and client data. You may ask how is NST any better and or secure? And a blunt response from me would be: it isn’t. The aspect of this app was meant to be a lightweight version of Microsoft Teams with ZERO telemetry and an easy self-updating method which in point, this app has accomplished. 
+
+
 ## The Deets and Info's
 NST by default saves Team’s attachments within the users documents folder. This will be changed within the near future to allow some style of customization. All cache and CefSharp content is saved within the users AppData folder within the directory NS_T for debugging. 
 
