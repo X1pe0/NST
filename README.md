@@ -23,27 +23,16 @@ NST by default saves Team’s attachments within the users documents folder. Thi
 ### System Tray Options
 ![](https://nabyte.com/imgs/50bbb20ce0ea0415b75fa42051678cf867b455572.png)
 
+### To Do
 
+- [X] Downloading Files
+- [X] Opening Downloaded File Once Completed
+- [X] Shitty Loading/Splash Screen
+- [ ] Notifications
+- [ ] Dynamic System Tray Icon 
+- [ ] Adding Azure
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### License
 ```
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
