@@ -28,6 +28,9 @@ NST by default saves Team’s attachments within the users documents folder. Thi
 - [X] Downloading Files
 - [X] Opening Downloaded File Once Completed
 - [X] Shitty Loading/Splash Screen
+- [ ] Settings Tab
+- [ ] Custom Themes
+- [ ] Custom Download Locations
 - [ ] Notifications
 - [ ] Dynamic System Tray Icon 
 - [ ] Adding Azure
