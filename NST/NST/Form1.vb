@@ -10,11 +10,14 @@ Public Class Form1
             e.Cancel = True
         End If
     End Sub
+
     Private Chromium As ChromiumWebBrowser
     Private ReadOnly IDownloadHandler As New Download_Handler
 
     Sub Form_Load(ByVal Caller As Object, ByVal Arguments As System.EventArgs) Handles MyBase.Load
+
         Dim Settings = New CefSettings
+        Settings.BackgroundColor = Cef.ColorSetARGB(255, 255, 255, 255)
         Settings.CefCommandLineArgs.Add("enable-media-stream", "1")
         Settings.CefCommandLineArgs.Add("disable-web-security", "1")
         Settings.CefCommandLineArgs.Add("allow-file-access-from-files", "1")
@@ -24,8 +27,14 @@ Public Class Form1
         CefSharp.Cef.Initialize(Settings)
 
         Chromium = New ChromiumWebBrowser("https://teams.microsoft.com") With {.DownloadHandler = IDownloadHandler, .Dock = DockStyle.Fill}
+
         Controls.Add(Chromium)
     End Sub
+
+
+
+
+
 
 
     Public Class Download_Handler
@@ -33,6 +42,7 @@ Public Class Form1
 
     Public Sub Before(Chromium As IWebBrowser, Browser As IBrowser, Item As DownloadItem, Callback As IBeforeDownloadCallback) Implements IDownloadHandler.OnBeforeDownload
             If Not Callback.IsDisposed Then Callback.Continue(IO.Path.Combine(SpecialDirectories.MyDocuments, Item.SuggestedFileName), False)
+            Process.Start("explorer.exe", "/select," + IO.Path.Combine(SpecialDirectories.MyDocuments, Item.SuggestedFileName))
         End Sub
 
     Public Sub Updated(Chromium As IWebBrowser, Browser As IBrowser, Item As DownloadItem, Callback As IDownloadItemCallback) Implements IDownloadHandler.OnDownloadUpdated
