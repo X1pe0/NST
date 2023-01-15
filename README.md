@@ -32,6 +32,8 @@ NST by default saves Team’s attachments within the users documents folder. Thi
 - [X] Downloading Files
 - [X] Opening Downloaded File Once Completed
 - [X] Shitty Loading/Splash Screen
+- [X] Dark Theme Context Menu
+- [X] Disable multiple sessions. 
 - [ ] Settings Tab
 - [ ] Custom Themes
 - [ ] Custom Download Locations
